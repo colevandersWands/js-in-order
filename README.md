@@ -29,7 +29,7 @@ This file is a light overview of JavaScript and PythonTutor, laid out in order b
 ---
 
 
-## [errors and program life-cycle]()
+## [errors and program life-cycle](https://github.com/janke-learning/errors-and-life-cycle)
 
 * there are [two types of errors](https://wci.llnl.gov/codes/basis/manual/node53.html) in programming
     * __syntax errors__: "bad spelling", the machine can't understand ("parse") what you've written
@@ -55,8 +55,9 @@ This file is a light overview of JavaScript and PythonTutor, laid out in order b
 
 ---
 
-## [variables & hoisting](https://github.com/janke-learning/hoisting-variables)
+## [variables & hoisting](https://github.com/janke-learning/variables-and-hoisting)
 
+* [helpful link](https://github.com/janke-learning/hoisting-variables)
 * variables are not a very complicated topic, but they are tricky and crucial to understanding the relationships between:
   * the code you write
   * the javascript notional machine / program execution phase
@@ -76,8 +77,9 @@ This file is a light overview of JavaScript and PythonTutor, laid out in order b
 ---
 
 
-## [Primitives](https://developer.mozilla.org/en-US/docs/Glossary/Primitive) 
+## [Primitives](https://github.com/janke-learning/primitives)  
 
+* [helpful link](https://developer.mozilla.org/en-US/docs/Glossary/Primitive) 
 * are stored [_by value_](https://github.com/janke-learning/reference-vs-value) directly in a variable
 * modifying one variable will not effect any other primitive values
 * are "things that don't hold other things"
@@ -92,9 +94,9 @@ This file is a light overview of JavaScript and PythonTutor, laid out in order b
 
 ---
 
-## [operators](https://javascript.info/operators)
+## [operators](https://github.com/janke-learning/operators)
 
-
+* [helpful link](https://javascript.info/operators)
 * operators take two values and _evaluate_ (or "collapse", or "resolve") to a new value
 * every operator works according to rules that you can learn & understand (even if they don't always make sense)
 * you can think of operators as "maps" from one type+value to another type+value
@@ -109,8 +111,9 @@ This file is a light overview of JavaScript and PythonTutor, laid out in order b
 
 ---
 
-## [expressions vs statements](https://en.hexlet.io/courses/intro_to_programming/lessons/expressions/theory_unit)
+## [expressions vs statements](https://github.com/janke-learning/expressions-vs-statements) 
 
+* [helpful link](https://en.hexlet.io/courses/intro_to_programming/lessons/expressions/theory_unit)
 * there is a very easy way to begin learning the difference between statements and expressions:
      * how many steps does PythonTutor take to execute your script?
 * _Statements_: each step in PythonTutor corresponds to one statement in your code. 
@@ -128,8 +131,9 @@ This file is a light overview of JavaScript and PythonTutor, laid out in order b
 
 ---
 
-## [Block Scope](https://www.youtube.com/watch?v=kw-mqezU4Dk)
+## [Block Scope](https://github.com/janke-learning/block-scope)  
 
+* [helpful link](https://www.youtube.com/watch?v=kw-mqezU4Dk)
 * [basic block scope example](https://goo.gl/uZMQfd)  
 * tricky bit: the [_temporal dead zone_](http://2ality.com/2015/10/why-tdz.html)  
     * the [lifecycle of a variable](https://dmitripavlutin.com/variables-lifecycle-and-why-let-is-not-hoisted/) is actually a bit more complicated than just _declaration_ & _assignment_, but before encountering block scope this was not relevant.  
@@ -142,8 +146,9 @@ This file is a light overview of JavaScript and PythonTutor, laid out in order b
 
 ---
 
-## [complex expressions](https://github.com/janke-learning/expanding/blob/master/1-expressions.md)
+## [complex expressions](https://github.com/janke-learning/complex-expressions) 
 
+* [helpful link](https://github.com/janke-learning/expanding/blob/master/1-expressions.md)
 * you can use many operators (sub-expressions) in a single expression
 * they will all be _evaluated_ in [a predictable order](https://www.google.com/search?client=safari&rls=en&q=javascript+order+of+operations&ie=UTF-8&oe=UTF-8)
 * to study and debug complex expressions, you can [expand](https://github.com/janke-learning/expanding/blob/master/1-expressions.md) them until there is only one operator per statement/line:
@@ -158,8 +163,9 @@ This file is a light overview of JavaScript and PythonTutor, laid out in order b
 
 ---
 
-## [truthiness & boolean operators](https://github.com/janke-learning/boolean-by-example)
+## [truthiness & boolean operators](https://github.com/janke-learning/truthiness-boolean-operators)
 
+* [helpful link](https://github.com/janke-learning/boolean-by-example)
 * truthiness can be thought of as casting any value to boolean and checking if it's true or false  
       * [reference on pytut](https://goo.gl/jBTLFD)  
       * [exercise on pytut](https://goo.gl/YNqGJN)  
@@ -176,8 +182,9 @@ This file is a light overview of JavaScript and PythonTutor, laid out in order b
 
 ---
 
-## [conditionals](https://javascript.info/ifelse)
+## [conditionals](https://github.com/janke-learning/conditionals)
 
+* [helpful link](https://javascript.info/ifelse)
 * conditional statements allow you to execute different _blocks of code_ depending on the __truthiness__ of a given expression
 * pythontutor snippets
     * [basic example](https://goo.gl/PfHDn2)
@@ -198,8 +205,9 @@ This file is a light overview of JavaScript and PythonTutor, laid out in order b
 
 ---
 
-## [iteration](https://javascript.info/while-for)
+## [iteration](https://github.com/janke-learning/iteration-with-primitives) 
 
+* [helpful link](https://javascript.info/while-for)
 * iteration allows you to execute the same block of code multiple times until a condition is truthy
 * there are 3 types of loops in JavaScript:
     * [while loops](https://goo.gl/DBKR5u) 
@@ -221,8 +229,9 @@ This file is a light overview of JavaScript and PythonTutor, laid out in order b
 
 ---
 
-## [Reference Types](https://gist.github.com/colevandersWands/bb2ed4c61ba29c4b93ed7214797ecf60) 
+## [Reference Types](https://github.com/janke-learning/reference-types) 
 
+* [helpful link](https://gist.github.com/colevandersWands/bb2ed4c61ba29c4b93ed7214797ecf60) 
 * are stored [_by reference_](https://github.com/janke-learning/reference-vs-value).  variables _point_ to them in memory
 * modifying one reference variable will effect all variables pointing to the same object in memory
 * are "things that hold other things"
@@ -246,7 +255,7 @@ This file is a light overview of JavaScript and PythonTutor, laid out in order b
 ---
 
 
-## Iterating over reference types
+## [Iterating over reference types](https://github.com/janke-learning/iteration-over-reference-types)
 
 * _for in_ and _for of_ loops are fundamentally the same as basic for loops, they just have more convenient sytax.  to make this point, these examples show how to convert from in/of to regular for loops:
     * [for-in loops (objects)](https://goo.gl/xhS36u) - notice that "in" is the same operator used to [check for properties in objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in)
@@ -258,7 +267,7 @@ This file is a light overview of JavaScript and PythonTutor, laid out in order b
 
 ---
 
-## Functions
+## [Functions](https://github.com/janke-learning/functions)
 * a new _frame_ is created each time a function is executed
 * and closes when that function returns
 * contain their own variables: args, local, free (not for now)
@@ -271,7 +280,7 @@ This file is a light overview of JavaScript and PythonTutor, laid out in order b
 
 ---
 
-## Free Variables
+## [Free Variables](https://github.com/janke-learning/free-variables)
 
 * JS is a functional programming langague, and is easiest to understand if you learn it with FP vocabulary
     * JS is flexible enough to use OOP design patterns
