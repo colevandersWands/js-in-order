@@ -163,7 +163,7 @@ This file is a light overview of JavaScript and PythonTutor, laid out in order b
 
 ---
 
-## [truthiness & boolean operators](https://github.com/janke-learning/truthiness-boolean-operators)
+## [truthiness & boolean operators](https://github.com/janke-learning/truthiness)
 
 * [helpful link](https://github.com/janke-learning/boolean-by-example)
 * truthiness can be thought of as casting any value to boolean and checking if it's true or false  
