@@ -4,7 +4,7 @@ Being able to accurately predict how JavaScript interprets your __source code__ 
 
 To learn the [JS notional machine](https://github.com/janke-learning/js-notional-machine) as effectively as possible, copy any code you are studying into [PythonTutor](http://www.pythontutor.com/javascript.html#) and carefully step through it's execution.  You will learn the most if you write down your prediction for each step before clicking the "forward" button.
 
-This file is a light overview of JavaScript and PythonTutor, laid out in order based on how complex the notional machine is for each language feature.  ie. the nm for variables & hoisting is simpler than for block scope, and/or is required to understnad block scope.  
+This file lays out a path to learn JavaScript in order based on how complex the notional machine is for each language feature.  ie. the nm for variables & hoisting is simpler than for block scope, and/or is required to understnad block scope.  
 
 
 ### Index:
@@ -31,24 +31,7 @@ This file is a light overview of JavaScript and PythonTutor, laid out in order b
 
 ## [errors and program life-cycle](https://github.com/janke-learning/errors-and-life-cycle)
 
-* there are [two types of errors](https://wci.llnl.gov/codes/basis/manual/node53.html) in programming
-    * __syntax errors__: "bad spelling", the machine can't understand ("parse") what you've written
-    * __semantic errors__: the machine was able to parse your code, but you asked it to do something that is not allowed
-* js programs have 2 stages: [creation phase & execution phase](https://www.youtube.com/watch?v=YID-HIdy1bk)
-* _creation phase errors_ - some errors are caught by JS when it is compiling your code in the _creation phase_
-    * creation phase errors can be identified because pythontutor will not go to the code visualization page
-    * [_syntax errors_](https://goo.gl/1Psxu7): "bad spelling", the machine can't understand ("parse") what you've written
-    * [_semantic errors_](https://goo.gl/68af7H): the machine was able to parse your code, and you made a mistake that JS is designed to catch before the program starts
-* _runtime errors_ - some errors are not caught until JS executes it in the _execution phase_
-    * runtime errors can be identified because pythontutor will throw the error when it reaches that line of code
-    * [_semantic errors_](https://goo.gl/WzbmNE): the machine was able to parse your code, but you wrote an invalid that JS wasn't designed to or able to catch until the program was running.  these can be much harder to track down than creation-phase errors
-* js will sometimes give you warnings as well, these are not the same as errors. your code will still work but maybe with bad practices or with certain risks.  you can ignore these for now
-  
-  
-  
-> logic errors (or "bugs") are when your code does not do what you expected, this is unrelated to language errors (writing invalid commands for JS).  Bugs and errors are often taught together, but are actually [completely different things](https://www.youtube.com/watch?v=tV0tQisuxPo). Fixing language errors requires only a solid understanding of the JS notional machine, while debugging also requires an understanding of program dynamics, tracing execution, debugging strategies & testing.  Debugging will be covered in depth later on.
-    
-  
+This repo introduces the background setting for all JS language features. Taking the time to become familiar with the life-cycle of JS programs & language will make it much simpler to learn the tricker concepts everyone's talking about; scope, errors, hoisting, strict mode, you name it.
  
 
 [TOP](#pythontutor-for-javascript)
@@ -57,19 +40,8 @@ This file is a light overview of JavaScript and PythonTutor, laid out in order b
 
 ## [variables & hoisting](https://github.com/janke-learning/variables-and-hoisting)
 
-* [helpful link](https://github.com/janke-learning/hoisting-variables)
-* variables are not a very complicated topic, but they are tricky and crucial to understanding the relationships between:
-  * the code you write
-  * the javascript notional machine / program execution phase
-  * and program state
-* a good and simple way to check your understandign of variables is [the value swap](https://github.com/janke-learning/value-swap)
-* there are two things you can do with variables
-  * [__Declaration__](https://goo.gl/dGfhNj): this statement tells JavaScript to set create a new variable that can be used to store values later on, but does not assign it a value. 
-  * [__Assignment__](https://goo.gl/PJNF5x): also known as "Defining", this expression tells JS to assign a new value to a variable
-* [__hoisting__](https://goo.gl/Ruc4gB): JS declares (but not defines) "var" variables durring the _creation phase_ of a program
-  * in the creation phase, your code is processed and the _global frame_ is prepared
-  * "var" variables are __declared__ but not defined, this is called "hoisting"
 
+The most basic unit of JavaScript is the __variable__. Variables are a way for you the programmer to understand, talk about, and manipulate what is happening in program memory.   This repo covers the life-cycle of variables in JS and provides you with the study skills necessary to explore them on your own using whatever examples or tutorials you prefer. 
  
 
 [TOP](#pythontutor-for-javascript)
