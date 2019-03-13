@@ -4,26 +4,30 @@ Being able to accurately predict how JavaScript interprets your __source code__ 
 
 To learn the [JS notional machine](https://github.com/janke-learning/js-notional-machine) as effectively as possible, copy any code you are studying into [PythonTutor](http://www.pythontutor.com/javascript.html#) and carefully step through it's execution.  You will learn the most if you write down your prediction for each step before clicking the "forward" button.
 
-This file lays out a path to learn JavaScript in order based on how complex the notional machine is for each language feature.  ie. the nm for variables & hoisting is simpler than for block scope, and/or is required to understnad block scope.  
+This file lays out a path to learn JavaScript in order, based on how complex the notional machine is for each language feature.  ie. the nm for variables & hoisting is simpler than for block scope, and/or is required to understnad block scope.  
 
 
 ### Index:
 1. [errors & program life cycle](#errors-and-program-life-cycle)
 1. [variables & hoisting](#variables---hoisting)  
 1. [primitives](#primitives)  
-1. [operators](#operators)  
+1. [operators within types](#operators-within-types)  
+1. [operators between types](#operators-between-types)  
 1. [expressions vs. statements](#expressions-vs-statements)  
+1. [assignment operators](#assignment-operators)
 1. [block scope](#block-scope)
 1. [complex expressions](#complex-expressions)  
 1. [truthiness](#truthiness)
 1. [conditionals](#conditionals)  
 1. [iteration](#iteration)  
 1. [reference types](#reference-types)
+1. [error handling](#error-handling)
 1. [iterating over reference types](#iterating-over-reference-types)  
 1. [functions](#functions)
+1. [the callstack](#the-callstack)
 1. [free variables](#free-variables)
 1. [prototypical inheritance](#prototypical-inheritance)
-1. [about python tutor](about-pytut)  
+
 
 
 ---
