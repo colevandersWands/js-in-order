@@ -70,7 +70,7 @@ The most basic unit of JavaScript is the __variable__. Variables are a way for y
 
 ---
 
-## [truthiness & boolean operators](https://github.com/janke-learning/truthiness)
+## [truthiness](https://github.com/janke-learning/truthiness)
 
 
 Truthiness is very simple to understand. Does a value convert to true or false when cast to boolean?
