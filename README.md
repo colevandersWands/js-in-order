@@ -10,14 +10,14 @@ This file lays out a path to learn JavaScript in order, based on how complex the
 ### Index:
 1. [errors & program life cycle](#errors-and-program-life-cycle)
 1. [variables & hoisting](#variables---hoisting)  
-1. [primitives](#primitives)  
+1. [primitives](#primitives)   
+1. [truthiness](#truthiness)
 1. [operators within types](#operators-within-types)  
 1. [operators between types](#operators-between-types)  
 1. [expressions vs. statements](#expressions-vs-statements)  
 1. [assignment operators](#assignment-operators)
 1. [block scope](#block-scope)
-1. [complex expressions](#complex-expressions)  
-1. [truthiness](#truthiness)
+1. [complex expressions](#complex-expressions) 
 1. [conditionals](#conditionals)  
 1. [iteration](#iteration)  
 1. [reference types](#reference-types)
@@ -64,6 +64,16 @@ The most basic unit of JavaScript is the __variable__. Variables are a way for y
 * you can convert primitives to different types with [explicit type casting](https://goo.gl/RgZ7gF)  
     * there is no way to cast something to null    
     * the rules for these conversions are tricky and will be covered in detail later on  
+
+
+[TOP](#pythontutor-for-javascript)
+
+---
+
+## [truthiness & boolean operators](https://github.com/janke-learning/truthiness)
+
+
+Truthiness is very simple to understand. Does a value convert to true or false when cast to boolean?
 
 
 [TOP](#pythontutor-for-javascript)
@@ -133,25 +143,6 @@ The most basic unit of JavaScript is the __variable__. Variables are a way for y
     * [equality & coercion](https://github.com/janke-learning/equalities-coercion)
     * [arithmetic & coercion](https://github.com/janke-learning/arithmetic-coercion)  
 * after some practice you may find that the [AST explorer](https://astexplorer.net/#/gist/e22d33e10f7c29268d5074803e35ced5/b63bf508b027cb7be2a27e8c6e841e12eac2fad4) helps you to expand and understand complex expressions
-
-
-[TOP](#pythontutor-for-javascript)
-
----
-
-## [truthiness & boolean operators](https://github.com/janke-learning/truthiness)
-
-* [helpful link](https://github.com/janke-learning/boolean-by-example)
-* truthiness can be thought of as casting any value to boolean and checking if it's true or false  
-      * [reference on pytut](https://goo.gl/jBTLFD)  
-      * [exercise on pytut](https://goo.gl/YNqGJN)  
-* this concept is necessary to understand _conditionals_ and _iteration_
-* comparison operators:  
-      * [&&, ||](https://goo.gl/BBXea6)  
-      * [>, <, >=, <=](https://goo.gl/aZ3eKL)  
-      * [==, ===](https://janke-learning.github.io/equalities-coercion/)  
-      * [!](https://goo.gl/N2Eexv)  
-* a big gotcha: [assignments where you meant comparisons](https://goo.gl/FK3U3q)
 
 
 [TOP](#pythontutor-for-javascript)
