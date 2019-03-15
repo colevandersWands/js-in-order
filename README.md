@@ -4,8 +4,13 @@ Being able to accurately predict how JavaScript interprets your __source code__ 
 
 To learn the [JS notional machine](https://github.com/janke-learning/js-notional-machine) as effectively as possible, copy any code you are studying into [PythonTutor](http://www.pythontutor.com/javascript.html#) and carefully step through it's execution.  You will learn the most if you write down your prediction for each step before clicking the "forward" button.
 
-This file lays out a path to learn JavaScript in order, based on how complex the notional machine is for each language feature.  ie. the nm for variables & hoisting is simpler than for block scope, and/or is required to understnad block scope.  
+This file lays out a path to learn JavaScript in order focusing on _mechanisms_ instead of _features_. In other words, building your understanding of JS by incrementally and explicitly building your notional machine.  ie. the nm for variables & hoisting is simpler than for block scope, and/or is required to understand block scope so it comes before.  
 
+A result of this organization is that topics will be spread out quite differently from what you may expect based on other JS courses. Take for example Primitives. To fully understand primitive types you need to have a solid grasp of many JS mechanisms (objects, context, inheritance, reference vs. value, implicit coercion, constructors, ...). Because JavaScript In Order is organized by _mechanisms_ (what happens behind the scenes) not _features_ (the syntax and language tools available to you), primitives will be split up over the entire length of JS in order.  Each _feature_ of primitives will be covered when the _mechanism_ that enables that feature is reached. ie. you will learn about primitive methods (str.split(), str.toUpperCase()) at the same time as you learn about "this" and prototypical inheritance.
+
+In addition to introducing the JS language in an unusual way and in the spirit of providing useful mental models for understanding JS & progrogramming, JavaScript In Order also doubles as an applied introduction to mathematics and CS.  You will learn to think of types as elements in sets, to think of your functions as maps between sets, to understand JS as computing machine, and to understand language features through replication.
+
+Enjoy! 
 
 ### Index:
 1. [errors & program life cycle](#errors-and-program-life-cycle)
