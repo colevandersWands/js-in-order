@@ -13,7 +13,7 @@ Enjoy!
 ### Index:
 1. [errors & program life cycle](#errors-and-program-life-cycle)
 1. [variables & hoisting](#variables---hoisting)  
-1. [primitives](#primitives)   
+1. [primitives & coercion](#primitives-and-coercion)   
 1. [truthiness](#truthiness)
 1. [operators within types](#operators-within-types)  
 1. [operators between types](#operators-between-types)  
@@ -56,7 +56,7 @@ The most basic unit of JavaScript is the __variable__. Variables are a way for y
 ---
 
 
-## [Primitives](https://github.com/janke-learning/primitives)  
+## [Primitives and Coercion](https://github.com/janke-learning/primitives-and-coercion)  
 
 * [helpful link](https://developer.mozilla.org/en-US/docs/Glossary/Primitive) 
 * are stored [_by value_](https://github.com/janke-learning/reference-vs-value) directly in a variable
