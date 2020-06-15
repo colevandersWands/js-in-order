@@ -1,3 +1,5 @@
+> https://github.com/HackYourFutureBelgium/debuggercises/
+
 # JavaScript in Order
 
 This repo lays out a path to learn JavaScript in order focusing on _language mechanisms_ & _CS principles_ instead of _language features_ & _use cases_, incrementally building your [JS notional machine](https://github.com/janke-learning/js-notional-machine) one step at a time. ie. the nm for variables & hoisting is simpler than for block scope, and/or is required to understand block scope so it comes before.  
